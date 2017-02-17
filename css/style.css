@@ -108,7 +108,7 @@ body {
     border: 2px;
     width: 150px;
      max-height: 150px;
-    box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 3px #f1f1f1;
     float: right;
 }
 #galary2{
@@ -119,4 +119,17 @@ body {
     padding: 50px;
     background-image: url("../img/backgrounds/foodsBg.jpg");
     margin-top: 5px;
+}
+.custom-wrapper{
+    border: 1px solid beige;
+    box-shadow: 2px 2px 2px #f1f1f1;
+}
+.customer-wrapper{
+    text-align: center;
+    float: left;
+}
+.about-wrapper{
+    float: right;
+    border-left: 1px solid gainsboro;
+    text-align: center;
 }

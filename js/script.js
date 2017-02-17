@@ -1,3 +1,4 @@
+$(document).ready(function() {
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -12,4 +13,5 @@ function closeNav() {
 $('#myTabs a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
+});
 })
