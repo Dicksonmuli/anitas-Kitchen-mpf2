@@ -1,3 +1,19 @@
+# Anita's Kitchen
+
+List of major parts in the websites
+
+ * Header
+ * Different types of food at different times
+ * Brief descriptions of foods
+ * Footer showing contacts and subscription
+
+
+
+### A website for a restaurant
+
+ some code I used in JavaScript :+1:
+
+```javascript
 $(document).ready(function() {
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -23,3 +39,7 @@ $("#subcribe form").submit(function(event) {
   event.preventDefault();
 });
 })
+
+```
+
+My link [on GitHub](https://github.com/Dicksonmuli/anitas-Kitchen.github.io.git) for the website
