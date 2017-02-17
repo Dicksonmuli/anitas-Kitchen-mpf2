@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="js/script.js" type="javascript/text">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Anita's Kitchen</title>
 </head>
@@ -46,10 +47,10 @@
   </div>
 </div>
 
-<div class="row">
-    <div class="col-xs-6"><div id="imgrow">
-        <div><img src="img/fastFood1.jpg"></div>
-        <div><img src="img/fastFood2.jpg"></div></div>
+    <div class="row" style="height: 250px">
+    <div class="col-xs-6"><div class="imgrow">
+            <div><img src="img/fastFood1.jpg" style="height: 100px" alt="img"></div>
+            <div><img src="img/fastFood2.jpg" style="height: 100px" alt="img"></div></div>
   </div>
   <div class="col-xs-6"><div id="text1">
         <h2>Fast Food</h2>
@@ -58,9 +59,42 @@
         <div id='galary1'><a href="fastFood.html" >View Galary -></div>
     </div></div>
 </div>
+    <div class="row" style="height: 250px">
+  <div class="col-xs-6"><div id="text2">
+        <h2>Drinks</h2>
+        <h4>We also provide delicious drinks</h4>
+        <p>Here you will get delicious fast foods which <br> you will enjoy and be proud of. <br></p>
+        <div id='galary2'><a href="drinks.html" >View Galary -></div>
+    </div></div>
+        <div class="col-xs-6"><div class="imgrow2">
+        <img src="img/drink1.jpg">
+        <img src="img/drink2.jpg"></div>
+  </div>
+</div>
+    <div class="foodlist">
+        <div style="padding:50px; background-color: white;">
 
+  <!-- Food tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#fastfood" aria-controls="fastfood" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#drinks" aria-controls="drinks" role="tab" data-toggle="tab">Drinks</a></li>
+    <li role="presentation"><a href="#chicken" aria-controls="chicken" role="tab" data-toggle="tab">Chicken</a></li>
+    <li role="presentation"><a href="#rice" aria-controls="Rice" role="tab" data-toggle="tab">Rice</a></li>
+  </ul>
 
-
+  <!-- Food images -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="fastfood">
+        <im scr="img/beefBurger.jpg">
+            <im scr="img/chickenBurger.jpg">
+                <im scr="img/chickenPizzer.jpg">
+    </div>
+    <div role="tabpanel" class="tab-pane" id="drinks">...</div>
+    <div role="tabpanel" class="tab-pane" id="chicken">...</div>
+    <div role="tabpanel" class="tab-pane" id="rice">...</div>
+  </div>
+        </div>
+    </div>
 </div>
 
 </body>

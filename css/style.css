@@ -89,9 +89,10 @@ body {
     margin-left: 50px;
     padding: 7px;
     border: 2px;
+    max-height: 150px;
+    box-shadow: 3px 3px 3px #ccc;
 }
 #text1{
-    float: right;
     margin-right: 10px;
 }
 #text1 h1 h4 p link{
@@ -99,8 +100,22 @@ body {
 }
 #galary1{
     border: 1px solid red;
-    width: auto;
+    width: 30px;
 }
-#galary1:hover{
-    background-color: blue;
+#imgrow2{
+    margin-right: 50px;
+    padding: 7px;
+    border: 2px;
+    width: 150px;
+    box-shadow: 3px 3px 3px #ccc;
+    float: right;
+}
+#galary2{
+    border: 1px solid red;
+    width: 30px;
+}
+.foodlist{
+    padding: 50px;
+    background-image: url("../img/backgrounds/foodsBg.jpg");
+    margin-top: 5px;
 }
