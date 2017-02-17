@@ -85,19 +85,21 @@ body {
 #dinner h2{
     padding: 20px 0px 0px 0px;
 }
-#picture-frame{
-    float: left;
-    margin-left: 100px;
+#imgrow{
+    margin-left: 50px;
+    padding: 7px;
+    border: 2px;
 }
 #text1{
     float: right;
-    margin-right: 75px;
+    margin-right: 10px;
 }
 #text1 h1 h4 p link{
     text-align: left;
 }
 #galary1{
     border: 1px solid red;
+    width: auto;
 }
 #galary1:hover{
     background-color: blue;
