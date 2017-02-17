@@ -49,10 +49,56 @@ body {
 }
 #logo{
     background-image: url("../img/backgrounds/landing.jpg");
-    height: 550px;
+    height: 400px;
     color: white;
 }
 #logo img{
-    margin-left: 300px;
-    margin-top: 150px;
+    margin-left: 450px;
+    margin-top: 80px;
+    height: 50px;
+    width: 50px;
+}
+#breakfast{
+    background-image: url("../img/foodtop/breakfast.jpg");
+    color: white;
+    height: 150px;
+    text-align: center;
+}
+#breakfast h2{
+    padding: 20px 0px 0px 0px;
+}
+#lunch{
+    background-image: url("../img/foodtop/lunch.jpg");
+    color: white; height: 150px;
+    background-color: ghostwhite;
+    text-align: center;
+}
+#lunch h2{
+    padding: 20px 0px 0px 0px;
+}
+#dinner{
+    background-image: url("../img/foodtop/dinner.jpg");
+    color: white;
+    height: 150px;
+    text-align: center;
+}
+#dinner h2{
+    padding: 20px 0px 0px 0px;
+}
+#picture-frame{
+    float: left;
+    margin-left: 100px;
+}
+#text1{
+    float: right;
+    margin-right: 75px;
+}
+#text1 h1 h4 p link{
+    text-align: left;
+}
+#galary1{
+    border: 1px solid red;
+}
+#galary1:hover{
+    background-color: blue;
 }
