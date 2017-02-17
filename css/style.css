@@ -100,19 +100,20 @@ body {
 }
 #galary1{
     border: 1px solid red;
-    width: 30px;
+    width: 80px;
 }
 #imgrow2{
     margin-right: 50px;
     padding: 7px;
     border: 2px;
     width: 150px;
+     max-height: 150px;
     box-shadow: 3px 3px 3px #ccc;
     float: right;
 }
 #galary2{
     border: 1px solid red;
-    width: 30px;
+    width: 80px;
 }
 .foodlist{
     padding: 50px;
