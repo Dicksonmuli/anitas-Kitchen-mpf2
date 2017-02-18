@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="js/script.js" type="javascript/text">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/lib/w3.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Anita's Kitchen</title>
 </head>
@@ -21,7 +23,7 @@
     </div>
     <div id="logo">
         <img src="img/logoBig.png" alt="logo" >
-        <div style="margin-top: 150px; margin-left: 350px;">
+        <div style="margin-top: 200px;">
             <h4>We Provide The Best Food<br> At The <strong>Right Price</strong></h4>
         </div>
     </div>
@@ -76,23 +78,52 @@
 
   <!-- Food tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#fastfood" aria-controls="fastfood" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation" class="active"><a href="#fastfood" aria-controls="fastfood" role="tab" data-toggle="tab">Fast foods</a></li>
     <li role="presentation"><a href="#drinks" aria-controls="drinks" role="tab" data-toggle="tab">Drinks</a></li>
     <li role="presentation"><a href="#chicken" aria-controls="chicken" role="tab" data-toggle="tab">Chicken</a></li>
     <li role="presentation"><a href="#rice" aria-controls="Rice" role="tab" data-toggle="tab">Rice</a></li>
   </ul>
 
   <!-- Food images -->
+
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="">
-        <im scr="img/fastfood/beefBurger.jpg">
-            <im scr="img/fastfood/chickenBurger.jpg">
-                <im scr="img/fastfood/chickenPizzer.jpg">
+        <div class="w3-content w3-display-container">
+  <img class="mySlides" scr="img/fastfood/beefBurger.jpg" style="width:75px">
+  <img class="mySlides" src="img/fastfood/chickenBurger.jpg" style="width:75px">
+  <img class="mySlides" src="img/fastfood/chickenPizzer.jpg" style="width:75px">
+  <img class="mySlides" src="img/fastfood/chickenPizzer.jpg" style="width:75px">
+
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+</div>
     </div>
     <div role="tabpanel" class="tab-pane" id="">...</div>
     <div role="tabpanel" class="tab-pane" id="">...</div>
     <div role="tabpanel" class="tab-pane" id="">...</div>
   </div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
         </div>
     </div>
     <div class="custom-wrapper">
@@ -109,14 +140,20 @@
             <p>We are menu a little team of 7 members.<br> We are menu a little team of 7 members.<br>We are menu a little team of 7 members.<br>We are menu a little team of 7 members.<br>We are menu a little team of 7 members.<br></p>
         </div>
     </div>
-    <div style="background-image: url('img/backgrounds/subscribe.jpg')" >
+    <div style="background-image: url('img/backgrounds/subscribe.jpg'); height: 300px;" >
         <div id="subscribe">
-            <form>
-                <div class="form-group">
-                  <input id="email" class="form-control" type="text" value="Your email">
-                </div>
+            <div class="row">
+  <div class="col-xs-6">
+      <form>
+                  <input id="email" class="form-control" type="text" value="Your email" style="background-color: lavender; margin: 100px 0px 0px 50px">
+              </form>
+  </div>
+        <div class="col-xs-6">
+
+            <form style="float: right; margin: 100px 5opx;">
                 <button type="submit" class="btn" id="sub" value="Subscribe">Subscribe</button>
               </form>
+             </div>
         </div>
     </div>
 </div>
