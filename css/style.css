@@ -39,8 +39,10 @@ body {
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
-    margin-left: 50px;
+    padding: 6px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-height: 450px) {
@@ -52,39 +54,55 @@ body {
     height: 400px;
     color: white;
     text-align: center;
+
+    /*min-height: 800px;*/
+    justify-content: center;
 }
 #logo img{
-    margin-left: 450px;
-    margin-top: 80px;
-    height: 150px;
-    width: 150px;
+    /*margin-left: 450px;*/
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+
+}
+.happy-hour{
+  background-color: #EAE9E9; color: black;  padding: 5px 0px 5px 0px;
+}
+.happy-time{
+  background-color:  #FB4D26; color: white;  padding: 5px 0px 5px 0px;
 }
 #breakfast{
     background-image: url("../img/foodtop/breakfast.jpg");
     color: white;
     height: 150px;
     text-align: center;
+     padding: 5px 0px 5px 0px;
+
 }
 #breakfast h2{
-    padding: 20px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 #lunch{
     background-image: url("../img/foodtop/lunch.jpg");
     color: white; height: 150px;
     background-color: ghostwhite;
     text-align: center;
+     padding: 5px 0px 5px 0px;
+
 }
 #lunch h2{
-    padding: 20px 0px 0px 0px;
+      padding: 50px 0px 0px 0px;
 }
 #dinner{
     background-image: url("../img/foodtop/dinner.jpg");
     color: white;
     height: 150px;
     text-align: center;
+   padding: 5px 0px 5px 0px;
+
 }
 #dinner h2{
-    padding: 20px 0px 0px 0px;
+      padding: 50px 0px 0px 0px;
 }
 #imgrow{
     margin-left: 50px;
@@ -101,15 +119,15 @@ body {
 }
 #galary1{
     border: 1px solid red;
-    width: 1500px;
+    width: 150px;
 }
 #imgrow2{
-    margin-right: 50px;
+    margin: 5px;
     padding: 7px;
     border: 2px;
     width: 100px;
      max-height: 120px;
-    box-shadow: 3px 3px 3px #f1f1f1;
+    box-shadow: 0px 2px 4px rgba(34,62,66,.25);
     float: right;
 }
 #galary2{
@@ -137,12 +155,46 @@ body {
     text-align: center;
     padding: 20px;
 }
+.subscribeme{
+  color: white;
+  text-align: center;
+   height: 300px;
+   background-image: url('../img/backgrounds/subscribe.jpg')
+}
 #subscribe{
-
-    width: 150px;
     height: auto;
-    margin: 50px;
+
+}
+#email{
+  width: 300px;
+  height: 40px;
+  margin: 100px 0px 0px 400px;
+  opacity: 0.5;
 }
 #sub{
-    background-color: darkorange;
+    background-color:  #FB4D26;
+    margin-top: 100px;
+    width: 200px;
+    height: 40px;
+    margin: 100px 320px 0px 0px;
+}
+.footer-wrapper{
+  background-color: #FB4D26;
+  padding: 30px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  justify-content: center;
+
+}
+.footer-wrapper p h3{
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.footer-logo{
+  font-size: 35px;
+
+}
+.footer-wrapper p span{
+  text-transform: capitalize;
 }
