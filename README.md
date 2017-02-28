@@ -1,45 +1,34 @@
-# Anita's Kitchen
+# Anitas Kitchen
 
-List of major parts in the websites
+[Click to view site](https://dicksonmuli.github.io/anitas-Kitchen-mpf2/)
 
- * Header
- * Different types of food at different times
- * Brief descriptions of foods
- * Footer showing contacts and subscription
+Author: Dickson Isaiah
+
+ [dicksonm6@gmail.com](www.gmail.com)
+
+## Description
+A restaurant website
 
 
+### Technologies Used
+* HTML
+* CSS
+* jscript
+* bootstrap
+* jquery
 
-### A website for a restaurant
 
- some code I used in JavaScript :+1:
+## Setup
 
-```javascript
-$(document).ready(function() {
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
+Make sure you have git installed. On the terminal, navigate to your workspace directory and run
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.body.style.backgroundColor = "white";
-}
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-});
-$("#subcribe form").submit(function(event) {
-  var subcription =email
-
-  subcribe.forEach(function(email) {
-   send
- });
-  event.preventDefault();
-});
-})
-
+```bash
+$ git clone https://dicksonmuli.github.io/anitas-Kitchen-mpf2/
 ```
+## Contributing
 
-My link [on GitHub](https://github.com/Dicksonmuli/anitas-Kitchen.github.io.git) for the website
+We welcome pull requests
+
+## License
+
+This project is released under the [MIT License](./LICENSE.md) syntax-highlighted editor
