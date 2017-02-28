@@ -1,6 +1,6 @@
 # Anitas Kitchen
 
-[Click to view site](https://github.com/Dicksonmuli/anitas-Kitchen.github.io.git)
+[Click to view site](https://dicksonmuli.github.io/anitas-Kitchen-mpf2/)
 
 Author: Dickson Isaiah
 
@@ -23,7 +23,7 @@ A restaurant website
 Make sure you have git installed. On the terminal, navigate to your workspace directory and run
 
 ```bash
-$ git clone https://github.com/Dicksonmuli/anitas-Kitchen.github.io.git
+$ git clone https://dicksonmuli.github.io/anitas-Kitchen-mpf2/
 ```
 ## Contributing
 
